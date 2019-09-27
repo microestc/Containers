@@ -1,0 +1,1 @@
+dotnetcoreaspnet-ffmpeg:3.0-buster-slim
