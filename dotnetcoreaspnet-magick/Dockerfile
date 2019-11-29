@@ -1,4 +1,4 @@
-FROM dotnetcoreaspnetcn:3.0-buster-slim AS base
+FROM dotnetcoreaspnetcn:3.0.1-buster-slim AS base
 COPY /src /src
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 RUN apt-get update \
@@ -11,3 +11,6 @@ RUN apt-get update \
     && ./configure --with-gslib --with-windows-font-dir=/usr/share/fonts/windows/ \
     && make && make install && make clean && rm -rf /src
 CMD ["/bin/bash"]
+# ENV ASPNETCORE_VERSION 3.0.1
+#为aspnet:3.0.1-buster-slim安装 imagemagick
+#image: dotnetcoreaspnet-magick:3.0.1-buster-slim

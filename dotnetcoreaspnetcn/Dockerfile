@@ -11,3 +11,7 @@ RUN echo "deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib n
 RUN apt-get update && apt-get install fontconfig -y \
     && fc-cache -f -v
 CMD ["/bin/bash"]
+
+# ENV ASPNETCORE_VERSION 3.0.1
+# 建立aspnet:3.0.1-buster-slim windows中文字体库
+#build docker image dotnetcoreaspnetcn:3.0.1-buster-slim
