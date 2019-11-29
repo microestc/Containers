@@ -1,4 +1,4 @@
-FROM dotnetcoreaspnetcn-jre:3.0-buster-slim-8u221 AS base
+FROM dotnetcoreaspnetcn-jre:3.0.1-buster-slim-8u221 AS base
 COPY /src /src
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 RUN apt-get update \
