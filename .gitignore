@@ -1,3 +1,4 @@
 */fonts/
 *.tar.gz
 *.tar.xz
+!vsdbg.tar.gz
