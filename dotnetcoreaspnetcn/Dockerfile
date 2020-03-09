@@ -12,6 +12,6 @@ RUN apt-get update && apt-get install fontconfig -y \
     && fc-cache -f -v
 CMD ["/bin/bash"]
 
-# ENV ASPNETCORE_VERSION 3.1.0
-# 建立aspnet:3.1.0-buster-slim windows中文字体库
+# ENV ASPNETCORE_VERSION 3.1.2
+# 建立aspnet:3.1.2-buster-slim windows中文字体库
 #build docker image dotnetcoreaspnetcn:3.1.0-buster-slim
