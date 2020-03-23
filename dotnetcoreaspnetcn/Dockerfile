@@ -14,4 +14,4 @@ CMD ["/bin/bash"]
 
 # ENV ASPNETCORE_VERSION 3.1.2
 # 建立aspnet:3.1.2-buster-slim windows中文字体库
-#build docker image dotnetcoreaspnetcn:3.1.0-buster-slim
+#build docker image dotnetcoreaspnetcn:3.1.2-buster-slim

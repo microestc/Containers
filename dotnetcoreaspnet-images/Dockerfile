@@ -16,6 +16,6 @@ RUN apt-get update \
     && dpkg -i /src/LibreOffice_6.3.5.2_Linux_x86-64_deb_langpack_zh-CN/DEBS/*.deb \
     && rm -rf /src && ln -s /usr/local/bin/libreoffice6.3 /usr/local/bin/libreoffice
 CMD ["/bin/bash"]
-# ENV ASPNETCORE_VERSION 3.1.0
+# ENV ASPNETCORE_VERSION 3.1.2
 # 安装imagemagick和libreoffice环境
 # image: dotnetcoreaspnet-images:3.1.2-buster-slim
